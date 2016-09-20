@@ -1,4 +1,5 @@
-/// <reference path="../../../pass/node_modules/facebook-ts/index.d.ts" />
+/// < https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/fbsdk/fbsdk.d.ts
+>
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
     console.log('statusChangeCallback');
@@ -66,5 +67,4 @@ window.fbAsyncInit = function () {
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 } (document, 'script', 'facebook-jssdk'));
-
 
