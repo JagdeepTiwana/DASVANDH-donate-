@@ -1,4 +1,4 @@
-/// https://github.com/JagdeepTiwana/DASVANDH-donate-/blob/master/fbsdk.d.ts
+/// <reference path="fbsdk.d.ts"  />
 
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
