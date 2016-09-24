@@ -1,4 +1,4 @@
-/// https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/fbsdk/fbsdk.d.ts
+/// https://github.com/JagdeepTiwana/DASVANDH-donate-/blob/master/fbsdk.d.ts
 
 // This is called with the results from from FB.getLoginStatus().
 function statusChangeCallback(response) {
